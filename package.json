@@ -1,0 +1,23 @@
+{
+  "name": "jira-actions",
+  "version": "1.0.0",
+  "description": "jira issue key checker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onesilq/jira-actions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onesilq/jira-actions/issues"
+  },
+  "homepage": "https://github.com/onesilq/jira-actions#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0"
+  }
+}
