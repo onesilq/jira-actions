@@ -9,7 +9,11 @@ inputs:
     required: true
   jira-prefix:
     required: true
-    description: "Jira issue key prefix. Ex. ABC-1111, prefix would be ABC"
+    description: "Jira project key prefix. Ex. ABC-1111, prefix would be ABC"
+  project-pr:
+    required: true
+    description: "PR title to be merged"
 runs:
   using: "node12"
   main: "index.js"
+  
