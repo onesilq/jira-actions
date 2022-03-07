@@ -8,7 +8,7 @@ async function run() {
   try {
 
     let regex = new RegExp(`${jiraPrefix}-[0-9]+`);
-    if (prName==null || regex.test(prName)) {
+    if (jiraPrefix==null || prName == null || regex.test(prName)) {
       core.setFailed("Jira Issue Key missing in PR title or description.");
       return;
     }
