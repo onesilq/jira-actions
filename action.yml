@@ -7,7 +7,7 @@ on: [pull_request]
 inputs:
   GITHUB_TOKEN:
     required: true
-  jira-prefix:
+  project-prefix:
     required: true
     description: "Jira project key prefix. Ex. ABC-1111, prefix would be ABC"
   project-pr:
@@ -16,4 +16,3 @@ inputs:
 runs:
   using: "node12"
   main: "index.js"
-  
